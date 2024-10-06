@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <div class="container">
+            <h1>Ortalama Hesaplama</h1>
+            <div v-if="showMessage" :class="checkColor">
+                <h2 >{{totalExam}} ile {{message}}</h2>
+            </div>
+            <input v-model="vize" type="number" placeholder="vize gir">
+            <input v-model="final" type="number" placeholder="final gir">
+            <button @click="calculate">hesapla</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

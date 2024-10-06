@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;  
+    align-items: center;     
+    height: 100vh;            
+    margin: 0;                
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+}
+input{
+    width: 300px;
+    height: 30px;
+    border: 10px;
+    margin: 10px;
+}
+
+button{
+    height: 30px;
+    width: 100px;
+    background-color:cornflowerblue;
+}
+
+.red{
+    color: red;
+}
+
+.green{
+    color: green;
+}
+.h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
